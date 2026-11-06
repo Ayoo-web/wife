@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#efe4cf">
+<title>THE ONE GAME I NEVER WON — for Nikki</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%99%9B%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+
+  <!-- CHAPTER 0 · COVER -->
+  <div id="cover" class="cover" role="button" tabindex="0" aria-label="Open the scrapbook">
+    <div class="cover-inner">
+      <div class="cover-rule" aria-hidden="true"></div>
+      <h1 class="cover-title" data-bind="cover.title"></h1>
+      <div class="cover-rule" aria-hidden="true"></div>
+      <p class="cover-dedication">Made for you, <em data-bind="her.name"></em>.</p>
+      <p class="cover-invite hand" data-bind="cover.invitation"></p>
+      <div class="cover-piece" aria-hidden="true">&#9819;</div>
+    </div>
+  </div>
+
+  <main id="book" aria-hidden="true">
+
+    <!-- CHAPTER 1 · THE LOSING STREAK -->
+    <section id="ch-chess" class="section" data-chapter="chess">
+      <header class="chapter-head">
+        <span class="chapter-label" data-bind="chess.chapterLabel"></span>
+        <h2 data-bind="chess.title"></h2>
+        <p class="chapter-intro" data-bind="chess.intro"></p>
+      </header>
+      <div class="chess-stage">
+        <div id="chessboard" class="chessboard" aria-label="A small chessboard. Tap the glowing square to move."></div>
+        <p id="chess-invite" class="hand chess-invite" data-bind="chess.invitation"></p>
+        <div id="chess-reveal" class="chess-reveal" hidden>
+          <h3 class="hand" data-bind="chess.afterMoveHead"></h3>
+          <div class="chess-story">
+            <p data-bind="chess.afterMove.0"></p>
+            <p data-bind="chess.afterMove.1"></p>
+          </div>
+          <button id="chess-again" class="linklike hand" type="button" data-bind="chess.playAgain"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 2 · BEFORE WE KNEW -->
+    <section id="ch-messages" class="section section-alt" data-chapter="messages">
+      <header class="chapter-head">
+        <span class="chapter-label" data-bind="messages.chapterLabel"></span>
+        <h2 data-bind="messages.title"></h2>
+        <p class="chapter-intro" data-bind="messages.intro"></p>
+      </header>
+      <div id="screens" class="screens"></div>
+      <p class="chapter-outro hand" data-bind="messages.outro"></p>
+    </section>
+
+    <!-- CHAPTER 3 · 9:00 PM — A SEAT BESIDE ME -->
+    <section id="ch-mcdonalds" class="section section-warm" data-chapter="mcdonalds">
+      <header class="chapter-head">
+        <span class="chapter-label" data-bind="mcdonalds.chapterLabel"></span>
+        <h2 data-bind="mcdonalds.title"></h2>
+      </header>
+      <div class="chairs-stage">
+        <div id="chairs" class="chairs"><!-- SVG injected by chapter script --></div>
+        <p id="chairs-invite" class="hand chairs-invite" data-bind="mcdonalds.invitation"></p>
+      </div>
+      <blockquote id="tapad" class="tapad-hand hand" hidden data-bind="mcdonalds.reveal"></blockquote>
+      <div id="mcd-story" class="mcd-story" hidden></div>
+    </section>
+
+    <!-- CHAPTER 4 · THINGS YOU DO WITHOUT KNOWING I NOTICE -->
+    <section id="ch-littlethings" class="section section-alt" data-chapter="littleThings">
+      <header class="chapter-head">
+        <span class="chapter-label" data-bind="littleThings.chapterLabel"></span>
+        <h2 data-bind="littleThings.title"></h2>
+        <p class="chapter-intro" data-bind="littleThings.intro"></p>
+      </header>
+      <div id="cards" class="cards"></div>
+    </section>
+
+    <!-- CHAPTER 5 · LITTLE PLACES, BIG MEMORIES -->
+    <section id="ch-gallery" class="section" data-chapter="gallery">
+      <header class="chapter-head">
+        <span class="chapter-label" data-bind="gallery.chapterLabel"></span>
+        <h2 data-bind="gallery.title"></h2>
+        <p class="chapter-intro" data-bind="gallery.intro"></p>
+      </header>
+      <div id="gallery"></div>
+    </section>
+
+    <!-- CHAPTER 6 · STILL WRITING -->
+    <section id="ch-stars" class="section section-sky" data-chapter="stars">
+      <header class="chapter-head chapter-head-stars">
+        <span class="chapter-label chapter-label-stars" data-bind="stars.chapterLabel"></span>
+        <h2 class="title-stars" data-bind="stars.title"></h2>
+        <p class="chapter-intro intro-stars" data-bind="stars.intro"></p>
+      </header>
+      <div class="sky-stage">
+        <div id="sky" class="sky" role="group" aria-label="A night sky of memories. Tap the glowing stars."></div>
+        <p id="sky-counter" class="sky-counter" aria-live="polite"></p>
+        <div id="star-card" class="star-card" hidden>
+          <h3 id="star-card-title" class="hand"></h3>
+          <p id="star-card-text"></p>
+        </div>
+        <p id="sky-prompt" class="hand sky-prompt" hidden></p>
+      </div>
+    </section>
+
+    <footer class="colophon">
+      <p class="hand">made by Hamid, for Nikki — you are the one game I never want to win.</p>
+    </footer>
+  </main>
+
+  <nav id="rail" class="rail" aria-label="Chapters" hidden></nav>
+
+  <!-- FINAL LETTER OVERLAY -->
+  <div id="letter" class="letter" hidden>
+    <div class="letter-paper" role="dialog" aria-modal="true" aria-labelledby="letter-title">
+      <button id="letter-close" class="letter-close" type="button" aria-label="Close letter">&times;</button>
+      <h3 id="letter-title" class="letter-title" data-bind="stars.letter.title"></h3>
+      <div id="letter-body" class="letter-body"></div>
+      <p class="letter-sign hand" data-bind="stars.letter.signoff"></p>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" hidden>
+    <button class="lb-close" type="button" aria-label="Close">&times;</button>
+    <button class="lb-prev" type="button" aria-label="Previous photo">&larr;</button>
+    <figure class="lb-figure">
+      <div id="lb-media" class="lb-media"></div>
+      <figcaption id="lb-caption" class="hand"></figcaption>
+    </figure>
+    <button class="lb-next" type="button" aria-label="Next photo">&rarr;</button>
+  </div>
+
+  <button id="music" class="music" type="button" aria-label="Play music" hidden>&#9835;</button>
+  <audio id="music-audio" loop preload="none"></audio>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
