@@ -26,7 +26,7 @@ export default {
     afterMoveHead: 'Still undefeated, aren’t you, Nikki?',
     afterMove: [
       "I've beaten everyone else, but somehow, I've never beaten you. Not once, in all our games.",
-      "I used to beat practically everyone in our class — even the strongest player among us. You could never beat him. But you beat me, every single time we sat down to play. And somewhere along the way, I honestly stopped minding.",
+      "I used to beat practically everyone in our class — pati si Henry. You could never beat him. But you beat me, every single time we sat down to play. And somewhere along the way, I honestly stopped minding. Playing with you became the best part of the game.",
     ],
     playAgain: 'take my queen again',
   },
@@ -34,21 +34,21 @@ export default {
   messages: {
     chapterLabel: 'Chapter Two',
     title: 'Before We Knew',
-    intro: 'The summer before college, before there was an us, you kept replying to my Messenger notes. Two people, casually talking, with no idea where it would lead.',
+    intro: 'The summer before college, before there was an us, you kept replying to my Messenger notes. Two people, casually talking, with no idea where it would lead. Funny na to think na I have no chance of winning you at chess, but I won your heart in the end.',
     outro: 'Funny how something as simple as replying to a note could eventually lead us here.',
     // Each item becomes a framed screenshot. Add real files to
     // public/images/early-conversations/ and set src to the filename.
     // (Ordered by Messenger’s filename sequence.)
     screenshots: [
-      { src: '/images/early-conversations/photo_6298612008680625421_y.jpg', annotation: 'a reply that started everything' },
-      { src: '/images/early-conversations/photo_6298612008680625422_y.jpg', annotation: 'the summer before everything' },
-      { src: '/images/early-conversations/photo_6298612008680625424_y.jpg', annotation: 'just talking. nothing more, we thought.' },
-      { src: '/images/early-conversations/photo_6298612008680625427_y.jpg', annotation: 'two people getting less strange' },
-      { src: '/images/early-conversations/photo_6298612008680625428_y.jpg', annotation: 'more of that summer' },
-      { src: '/images/early-conversations/photo_6298612008680625429_y.jpg', annotation: 'the conversation that didn’t stop' },
-      { src: '/images/early-conversations/photo_6298612008680625431_y.jpg', annotation: 'somewhere in between all of this' },
-      { src: '/images/early-conversations/photo_6298612008680625433_y.jpg', annotation: 'still just replying to your notes' },
-      { src: '/images/early-conversations/photo_6298612008680625434_y.jpg', annotation: 'and somewhere in those replies, we stopped being strangers' },
+      { src: '/images/early-conversations/photo_6298612008680625421_y.jpg', annotation: 'kaon sa daw siya ohhh HAHAHAAHAHA' },
+      { src: '/images/early-conversations/photo_6298612008680625422_y.jpg', annotation: 'goodnight, nice game, og happy b-day? sanaol' },
+      { src: '/images/early-conversations/photo_6298612008680625424_y.jpg', annotation: 'unsay ig daw HAHAHAHAHA. may pa kawai kawai ka pa ha' },
+      { src: '/images/early-conversations/photo_6298612008680625427_y.jpg', annotation: 'heart nako here kayy niambak na gikan sa chest nako sa kalipay' },
+      { src: '/images/early-conversations/photo_6298612008680625428_y.jpg', annotation: 'ml date with you' },
+      { src: '/images/early-conversations/photo_6298612008680625429_y.jpg', annotation: 'yieee kanon daw ko niyaa' },
+      { src: '/images/early-conversations/photo_6298612008680625431_y.jpg', annotation: 'mga igat HAHAHAHAHA' },
+      { src: '/images/early-conversations/photo_6298612008680625433_y.jpg', annotation: 'igat japun' },
+      { src: '/images/early-conversations/photo_6298612008680625434_y.jpg', annotation: 'init ang ulo sa imong asawa hahaystt' },
     ],
     placeholderText: 'A memory from that summer will live here, once a real screenshot is added.',
   },
@@ -57,14 +57,14 @@ export default {
     chapterLabel: 'Chapter Three',
     title: '9:00 PM — A Seat Beside Me',
     invitation: '(tap a chair)',
-    reveal: 'Of course! Ali ali tapad ta.',
+    reveal: 'Suree! Ali ali tapad ta.',
     story: [
-      'It was Palakasan season. The whole campus was loud with volleyball and basketball, and by 9 PM we were both hungry. So I asked you to eat at McDonald’s with me.',
+      'It was Palakasan. The whole campus was loud, drag queens man to, and by 9 PM need na nimo makauli and at the same time gutom. So I asked you to eat at McDonald’s with me.',
       'You hesitated — shy, insisting you didn’t want me to pay for your food. It took quite a bit of convincing before you finally said yes.',
       'We ordered. The food arrived. I went to the counter to collect it, and when I came back, you asked if you could sit beside me. Not across. Beside.',
       '"Of course! Ali ali tapad ta."',
-      'We ate, and we talked. Afterward I walked you to the sikad station, and we kept talking a little longer before you went home. But the night wasn’t over — we kept the conversation going until around 1 AM, before either of us slept.',
-      'Nothing extraordinary happened that night. No grand gesture, no dramatic confession. Just dinner, conversation, and two people who didn’t want to stop spending time together. That’s exactly why it matters.',
+      'We ate, and we talked. Afterwards ako kang giubanan sa atong goodbye station, and we kept talking a little longer before you went home. But the night wasn’t over — we kept the conversation going until around 1 AM, before either of us slept.',
+      'Nothing extraordinary happened that night. No grand gesture, no dramatic confession. Just dinner, conversation, and two people who didn’t want to stop spending time together.',
     ],
   },
 
@@ -74,15 +74,15 @@ export default {
     intro: 'A collection of small things. Tap each one — I’ve been keeping notes.',
     // front = the little thing, back = what I want her to know.
     cards: [
-      { front: 'that hehehe', icon: '♪', back: 'That little hehehe of yours. I don’t think you understand how much I love hearing it. It’s one of my favorite sounds in the world.' },
-      { front: 'your smile', icon: '☺', back: 'Even when you’re not trying — even when it’s weird in the most endearing way — it somehow becomes the best part of my day.' },
+      { front: 'that hehehe', icon: '♪', back: 'That cute little laugh of yours. I don’t think you understand how much I love hearing it. It’s one of my favorite sounds in the world.' },
+      { front: 'your smile', icon: '☺', back: 'Even when you’re not trying — even when it’s weird in the most endearing way — somehow became my hobby watching you smile.' },
       { front: 'the hand thing', icon: '✾', back: 'When we walk, your hand seems to find mine all on its own. Without thinking. Every time. I notice. I love it.' },
-      { front: 'seat beside me', icon: '□', back: 'You always want to sit beside me when we’re eating. Somehow, you became my favorite person to sit beside.' },
+      { front: 'seat beside me', icon: '□', back: 'You always want to sit beside me when we’re eating. Somehow, I started to prefer it that way.' },
       { front: 'ube, always', icon: '☘', back: 'If it’s ube-flavored, it’s yours. I never forget what you love — and I keep it in mind more often than you probably realize.' },
-      { front: 'shawarma runs', icon: '☭', back: 'Nothing complicated, just shawarma with you. Some of my favorite nights are the simplest ones.' },
-      { front: 'the stars', icon: '✦', back: 'You love astronomy. So do I. One shared sky, looked at from the same side, together.' },
+      { front: 'shawarma runs', icon: '☭', back: 'Nothing complicated, just shawarma with you. Some of my favorite nights are the simplest ones. Night market na tag 99' },
+      { front: 'the stars', icon: '✦', back: 'You love astronomy. So do I. You always point the moon and the stars, I follow your eyes that is so magical that even stars cannot replicate.' },
       { front: 'billiards', icon: '◎', back: 'You, leaning over the table, taking your shot. Add billiards to the list of things you’re surprisingly good at — and that I love watching.' },
-      { front: 'arm massages', icon: '❖', back: 'You massage my arms out of nowhere. And sometimes bite them, I think, without even noticing. Both are yours — the arms too.' },
+      { front: 'arm bites', icon: '❖', back: 'You massage my arms out of nowhere. And sometimes bite them, I think, without even noticing. Both are yours — the arms too. Di jud nako malimtan na nangitom akong whole upper arm.' },
       { front: 'that jealousy', icon: '♦', back: 'Your jealousy is out of this world. Honestly? I find it endearing. It tells me you care in the loudest possible way.' },
       { front: 'brush your teeth', icon: '✾', back: 'You scold me when I do dumb things — even before I get hurt. You remind me what I always forget, take care of me, and want me clean and healthy. I pretend to complain. I don’t, really.' },
       { front: 'sleepy hugs', icon: '♡', back: 'You sleep with my arms wrapped around you — even quick naps. Being your favorite place to rest is quietly my favorite thing to be.' },
@@ -101,7 +101,7 @@ export default {
         annotation: 'side by side, before we knew we’d end up together',
         folder: 'public/images/graduation/',
         photos: [
-          { src: '/images/graduation/photo_6298612008680625535_y.jpg', caption: 'Where this whole thing started, honestly.', date: null },
+          { src: '/images/graduation/photo_6298612008680625535_y.jpg', caption: 'First pic together. Thank you Jayson!', date: null },
         ],
       },
       {
@@ -110,7 +110,7 @@ export default {
         annotation: 'the trip that turned into a chapter of ours',
         folder: 'public/images/bangko-bangko/',
         photos: [
-          { src: '/images/bangko-bangko/photo_6298612008680625537_y.jpg', caption: 'Our trip to Bangko Bangko.', date: null },
+          { src: '/images/bangko-bangko/photo_6298612008680625537_y.jpg', caption: 'Na finger HAHAHAHAHA', date: null },
         ],
       },
       {
@@ -119,8 +119,8 @@ export default {
         annotation: 'our usual spot for quiet evenings',
         folder: 'public/images/esplanade-coastal-road/',
         photos: [
-          { src: '/images/esplanade-coastal-road/photo_6300863808494309805_y.jpg', caption: 'An evening at the Esplanade.', date: null },
-          { src: '/images/esplanade-coastal-road/photo_6300863808494309806_y.jpg', caption: 'Another one from the coastal road.', date: null },
+          { src: '/images/esplanade-coastal-road/photo_6300863808494309805_y.jpg', caption: 'So cutee talagaa sa couple', date: null },
+          { src: '/images/esplanade-coastal-road/photo_6300863808494309806_y.jpg', caption: 'Murag unsa raba kadako HAHAHAHAHA', date: null },
         ],
       },
       {
@@ -129,7 +129,7 @@ export default {
         annotation: 'ordinary miles, side by side',
         folder: 'public/images/july-jogging/',
         photos: [
-          { src: '/images/july-jogging/photo_6300863808494309807_y.jpg', caption: 'Some of those July miles.', date: null },
+          { src: '/images/july-jogging/photo_6300863808494309807_y.jpg', caption: 'Start na daw sa healthy living pero namali og istorya sa ate', date: null },
         ],
       },
       {
@@ -139,7 +139,7 @@ export default {
         special: 'sleeping',
         folder: 'public/images/little-moments/',
         photos: [
-          { src: '/images/little-moments/photo_6300863808494309809_y.jpg', caption: 'You, asleep, leaning on me. Nothing remarkable happened that day. That’s exactly why I love this photo. Ordinary moments with you are the ones I’d choose again and again.', date: null },
+          { src: '/images/little-moments/photo_6300863808494309809_y.jpg', caption: 'Random day lang jud na gapa cute ta', date: null },
         ],
       },
       {
@@ -148,8 +148,8 @@ export default {
         annotation: 'the in-between moments',
         folder: 'public/images/little-moments/',
         photos: [
-          { src: '/images/little-moments/photo_6300863808494309808_y.jpg', caption: 'You, at the table, taking your shot.', date: null },
-          { src: '/images/little-moments/photo_6300863808494309810_y.jpg', caption: 'One more little moment, kept just because.', date: null },
+          { src: '/images/little-moments/photo_6300863808494309808_y.jpg', caption: 'You, asleep, leaning on me. Nothing remarkable happened that day. That’s exactly why I love this photo. Ordinary moments with you are the ones I’d choose again and again.', date: null },
+          { src: '/images/little-moments/photo_6300863808494309810_y.jpg', caption: 'I really love keeping these kind of pictures of you because it reminds me that you aren’t afraid to show who you really are.', date: null },
         ],
       },
     ],
