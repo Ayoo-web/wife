@@ -53,13 +53,13 @@ The password gate needs a real server, so static hosts (Vercel/Netlify/GitHub Pa
 - [x] Project folder + structure created
 - [x] Phase 1: Discovery — partially; still needs from you: real photos/videos, your chosen password, hosting decision, optional music file
 - [x] Phase 2: Creative direction — follows BRIEF.md (approved by "make the website")
-- [x] Phase 3: Build — all 7 chapters + the 3 signature interactions implemented; temporary "drop your photo here" placeholders where real media is missing
+- [x] Phase 3: Build — all 7 chapters + the 3 signature interactions implemented; all 17 real photos/screenshots wired in (no placeholders left)
 - [x] Phase 4: Test — browser-tested phone + desktop, plus an independent 4-reviewer code audit; all 18 confirmed findings fixed and re-verified
 - [ ] Phase 5: Deploy — waiting on hosting decision + final password
 
 ## What I still need from you
 
-1. Real photos/videos/screenshots into the `public/images/...` folders (then add entries in `src/data/content.js`).
+1. ~~Real photos into the folders~~ ✅ done — all 17 are wired in. **Review the captions** in `src/data/content.js` (the `caption:` and `annotation:` lines): I kept them truthful but generic where the photo content wasn't confirmed, so make them yours.
 2. The password you want to give Nikki (edit `.env`, currently a placeholder: `ali-ali-tapad-ta`).
 3. Hosting — easiest path: private GitHub repo + Render.com, full steps in "Hosting + privacy" below (Vercel/Netlify won't work here).
 4. Optional: a background-music file in `public/audio/`.

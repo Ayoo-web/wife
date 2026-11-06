@@ -38,10 +38,17 @@ export default {
     outro: 'Funny how something as simple as replying to a note could eventually lead us here.',
     // Each item becomes a framed screenshot. Add real files to
     // public/images/early-conversations/ and set src to the filename.
+    // (Ordered by Messenger’s filename sequence.)
     screenshots: [
-      { src: null, annotation: 'the summer before everything' },
-      { src: null, annotation: 'just talking. nothing more, we thought.' },
-      { src: null, annotation: 'and somewhere in those replies, we stopped being strangers' },
+      { src: '/images/early-conversations/photo_6298612008680625421_y.jpg', annotation: 'a reply that started everything' },
+      { src: '/images/early-conversations/photo_6298612008680625422_y.jpg', annotation: 'the summer before everything' },
+      { src: '/images/early-conversations/photo_6298612008680625424_y.jpg', annotation: 'just talking. nothing more, we thought.' },
+      { src: '/images/early-conversations/photo_6298612008680625427_y.jpg', annotation: 'two people getting less strange' },
+      { src: '/images/early-conversations/photo_6298612008680625428_y.jpg', annotation: 'more of that summer' },
+      { src: '/images/early-conversations/photo_6298612008680625429_y.jpg', annotation: 'the conversation that didn’t stop' },
+      { src: '/images/early-conversations/photo_6298612008680625431_y.jpg', annotation: 'somewhere in between all of this' },
+      { src: '/images/early-conversations/photo_6298612008680625433_y.jpg', annotation: 'still just replying to your notes' },
+      { src: '/images/early-conversations/photo_6298612008680625434_y.jpg', annotation: 'and somewhere in those replies, we stopped being strangers' },
     ],
     placeholderText: 'A memory from that summer will live here, once a real screenshot is added.',
   },
@@ -94,7 +101,7 @@ export default {
         annotation: 'side by side, before we knew we’d end up together',
         folder: 'public/images/graduation/',
         photos: [
-          { src: null, caption: 'Where this whole thing started, honestly.', date: null },
+          { src: '/images/graduation/photo_6298612008680625535_y.jpg', caption: 'Where this whole thing started, honestly.', date: null },
         ],
       },
       {
@@ -103,7 +110,7 @@ export default {
         annotation: 'the trip that turned into a chapter of ours',
         folder: 'public/images/bangko-bangko/',
         photos: [
-          { src: null, caption: '(I’ll write the caption for this one when the photo is up.)', date: null },
+          { src: '/images/bangko-bangko/photo_6298612008680625537_y.jpg', caption: 'Our trip to Bangko Bangko.', date: null },
         ],
       },
       {
@@ -112,7 +119,8 @@ export default {
         annotation: 'our usual spot for quiet evenings',
         folder: 'public/images/esplanade-coastal-road/',
         photos: [
-          { src: null, caption: '(I’ll write the caption for this one when the photo is up.)', date: null },
+          { src: '/images/esplanade-coastal-road/photo_6300863808494309805_y.jpg', caption: 'An evening at the Esplanade.', date: null },
+          { src: '/images/esplanade-coastal-road/photo_6300863808494309806_y.jpg', caption: 'Another one from the coastal road.', date: null },
         ],
       },
       {
@@ -121,7 +129,7 @@ export default {
         annotation: 'ordinary miles, side by side',
         folder: 'public/images/july-jogging/',
         photos: [
-          { src: null, caption: '(I’ll write the caption for this one when the photo is up.)', date: null },
+          { src: '/images/july-jogging/photo_6300863808494309807_y.jpg', caption: 'Some of those July miles.', date: null },
         ],
       },
       {
@@ -131,7 +139,17 @@ export default {
         special: 'sleeping',
         folder: 'public/images/little-moments/',
         photos: [
-          { src: null, caption: 'You, asleep, leaning on me. Nothing remarkable happened that day. That’s exactly why I love this photo. Ordinary moments with you are the ones I’d choose again and again.', date: null },
+          { src: '/images/little-moments/photo_6300863808494309809_y.jpg', caption: 'You, asleep, leaning on me. Nothing remarkable happened that day. That’s exactly why I love this photo. Ordinary moments with you are the ones I’d choose again and again.', date: null },
+        ],
+      },
+      {
+        id: 'little-moments',
+        title: 'Little Moments',
+        annotation: 'the in-between moments',
+        folder: 'public/images/little-moments/',
+        photos: [
+          { src: '/images/little-moments/photo_6300863808494309808_y.jpg', caption: 'You, at the table, taking your shot.', date: null },
+          { src: '/images/little-moments/photo_6300863808494309810_y.jpg', caption: 'One more little moment, kept just because.', date: null },
         ],
       },
     ],
